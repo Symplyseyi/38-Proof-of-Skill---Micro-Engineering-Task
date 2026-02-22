@@ -270,7 +270,7 @@
   align-items: center;
   border: 1px solid #e5e7eb;
   border-radius: 0.75rem;
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
