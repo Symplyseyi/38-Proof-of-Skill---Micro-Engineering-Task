@@ -118,7 +118,7 @@
 
 /* CARD */
 .card {
-  width: 33%;
+  width: 32%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #020817;
   font-weight: 600;
 }
