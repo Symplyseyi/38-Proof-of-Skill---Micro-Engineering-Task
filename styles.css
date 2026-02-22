@@ -125,7 +125,7 @@
   justify-content: start;
   align-items: start;
   row-gap: 0.875rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   border: 1px solid #e5e7eb;
   border-radius: 0.75rem;
   text-decoration: none;
@@ -145,9 +145,9 @@
 }
 
 .card-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #020817;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .progress-container {
