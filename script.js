@@ -1,3 +1,20 @@
+// HAMBURGER MENU TOGGLE
+(function () {
+  const hamburger = document.getElementById("hamburger");
+  const header = document.querySelector(".header-sec");
+  if (hamburger && header) {
+    hamburger.addEventListener("click", () => {
+      header.classList.toggle("menu-open");
+    });
+    // Close menu when a nav link is clicked
+    header.querySelectorAll(".nav").forEach((link) => {
+      link.addEventListener("click", () =>
+        header.classList.remove("menu-open"),
+      );
+    });
+  }
+})();
+
 // DOM REFERENCES
 const navLinks = document.querySelectorAll(".nav");
 const cards = document.querySelectorAll(".card");
