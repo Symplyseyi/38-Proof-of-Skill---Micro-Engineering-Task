@@ -440,12 +440,14 @@
 }
 
 .modal-input-group {
+  width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 0.35rem;
 }
 
 .modal-input-row {
+  width: 100%;
   display: flex;
   flex-direction: row;
   column-gap: 0.75rem;
@@ -739,9 +741,7 @@
   border-radius: 10rem;
 }
 
-/* ===================== */
-/* HAMBURGER BUTTON      */
-/* ===================== */
+/* HAMBURGER BUTTON  */
 .hamburger {
   display: none;
   background: none;
@@ -773,9 +773,7 @@
   transform: translateY(-7.5px) rotate(-45deg);
 }
 
-/* =============================== */
 /* TABLET  — max-width: 1024px     */
-/* =============================== */
 @media (max-width: 1024px) {
   .header-sec {
     padding: 1.25rem 3rem;
@@ -793,9 +791,7 @@
   }
 }
 
-/* =============================== */
-/* MOBILE  — max-width: 640px      */
-/* =============================== */
+/* MOBILE  — max-width: 640px */
 @media (max-width: 640px) {
   /* Header */
   .header-sec {
@@ -871,7 +867,7 @@
 
   /* Modal adjustments */
   .modal {
-    width: 94vw;
+    width: 100%;
     padding: 1.25rem;
     max-height: 90vh;
   }
